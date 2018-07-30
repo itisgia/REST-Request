@@ -7,6 +7,12 @@
       form  {
         font-size: 20px;
       }
+      .selectWrapper {
+        width: 130px;
+      }
+      option{
+        text-align: center;;
+      }
     </style>
   </head>
   <body>
@@ -14,7 +20,14 @@
     <form id="ageForm" action="" method="post">
         <label for="">Minimum Age</label>
         <input type="number" name="minAge">
-        <input type="" name="" value="">
+        <select id="selectWrapper">
+            <option name="Dollar" value="dollar">$</option>
+            <option name="Pound" value="pounds">£</option>
+            <option name="Euro" value="euro">€</option>
+            <option name="Dollar" value="dollar">$</option>
+
+        </select>
+
         <input type="submit" name="" value="submit">
     </form>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.js"></script>
